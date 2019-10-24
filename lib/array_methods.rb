@@ -5,23 +5,5 @@ def find_element_index(array, value_to_find)
       return index
     end
   return nil
-
-
-def find_max_value(array)
-    length = array.length
-  length.times do |index|
-    if max < array[index]
-      max = array[index]
-  end
-  return max
-
-
-def find_min_value(array)
-  min = array[0]
-  length = array.length
-  length.times do |index|
-    if min > array[index]
-      min = array[index]
 end
-  return min
 
