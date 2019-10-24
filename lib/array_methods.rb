@@ -5,6 +5,7 @@ def find_element_index(array, value_to_find)
       return index
     end
   return nil
+end
 
 
 def find_max_value(array)
@@ -14,6 +15,7 @@ def find_max_value(array)
       max = array[index]
   end
   return max
+end
 
 
 def find_min_value(array)
@@ -24,4 +26,5 @@ def find_min_value(array)
       min = array[index]
 end
   return min
+end
 
